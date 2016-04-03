@@ -1,7 +1,7 @@
 {
-  "name": "redux-easy-boilerplate",
-  "version": "2.1.0",
-  "description": "Start your project easy and fast with modern tools",
+  "name": "stms",
+  "version": "1.0.0",
+  "description": "Sample project for STMS",
   "scripts": {
     "clean": "rimraf dist",
     "build": "webpack --progress --verbose --colors --display-error-details --config webpack/common.config.js",
@@ -12,10 +12,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/anorudes/redux-easy-boilerplate.git"
+    "url": "https://github.com/EdoMagen/stms.git"
   },
-  "homepage": "http://anorudes.github.io/redux-easy-boilerplate/",
-  "bugs": "https://github.com/anorudes/redux-easy-boilerplate/issues",
+  "homepage": "http://www.stms.co.il",
+  "bugs": "http://www.google.com",
   "keywords": [
     "react",
     "reactjs",
@@ -31,11 +31,7 @@
   ],
   "license": "MIT",
   "authors": [
-    "Max Anoru (https://github.com/anorudes)",
-    "Andrey Keske (https://github.com/keske)"
-  ],
-  "contributors": [
-    "Ollipekka Jalonen (https://github.com/inertum)"
+    "Edo Magen (https://github.com/EdoMagen)"
   ],
   "devDependencies": {
     "autoprefixer": "6.3.1",

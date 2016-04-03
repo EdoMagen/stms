@@ -23,8 +23,8 @@ STMS Spotify favorite picker
 
 ## Installation
 ```
-$ git clone https://github.com/anorudes/redux-easy-boilerplate.git
-$ cd redux-easy-boilerplate
+$ git clone https://github.com/EdoMagen/stms.git
+$ cd stms
 $ npm install
 ```
 
