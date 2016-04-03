@@ -1,0 +1,72 @@
+@import '../../../../src/containers/App/styles/screens';
+
+:local(.styles) {
+  .fa {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 1.4em;
+    &.fa-angle-left {
+      &:before {
+        content: "\e071";
+      }
+    }
+    &.fa-angle-double-left {
+      &:before {
+        content: "\e069";
+      }
+    }
+    &.fa-angle-right {
+      &:before {
+        content: "\e075";
+      }
+    }
+    &.fa-angle-double-right {
+      &:before {
+        content: "\e077";
+      }
+    }
+  }
+  .favorite {
+    margin: 1%;
+    border:1px solid #E8E8E8;
+    padding: 5px;
+    .favorite-heading {
+      margin:0 0 10px 0;
+    }
+    .favorite-left, .favorite-body {
+      float:left;
+      max-width: 33%;
+    }
+    .favorite-body {
+      padding: 0 0 0 15;
+      max-width:66%;
+    }
+    &.col-md-6 {
+      height:165;
+    }
+    img {
+      width:150;
+      height:150;
+    }
+  }
+  .glyphicon {
+    font-size:1.3em;
+    padding-right:20px;
+    vertical-align: sub;
+    margin-left:10px;
+    margin-top:10px;
+  }
+   @media (#{$tablet}) {
+     .favorite.col-md-6 {
+       width:48%;
+     }
+   }
+
+}

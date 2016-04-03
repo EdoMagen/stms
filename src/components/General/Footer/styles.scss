@@ -1,0 +1,15 @@
+:local(.styles) {
+  text-align: center;
+  padding: 70px 0 40px;
+  margin: 70px 0 30px;
+  border-top: 1px solid #CCC;
+  line-height: 1.3em;
+  iframe {
+    margin: 0 20px;
+  }
+  .glyphicon {
+    font-size:1.3em;
+    padding-right:20px;
+    vertical-align: sub;
+  }
+}
